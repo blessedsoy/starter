@@ -1,0 +1,97 @@
+
+#popup-box {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 485px;
+    height: 385px;
+    text-align: center;
+    font-family: Lato;
+    padding: 8px;
+}
+
+#popup-box #close-popup {
+    display: block;
+    text-align: right;
+    color: grey;
+    padding: none;
+    margin: none;
+}
+
+div, h1, h3, img, span {
+    margin: 0;
+}
+
+#popup-box #popup-text {
+    margin: 10px 0;
+    margin-bottom: 9px;
+    text-transform: uppercase;
+}
+
+#popup-box #popup-text #popup-text1 {
+    color: #4b0532;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+
+#popup-box #popup-text #popup-text2 {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#popup-box #rewards {
+    display: flex;
+    padding: none;
+    margin-top: 8px
+}
+
+#popup-box #rewards .reward {
+    width: 33%;
+    font-size: .9em;
+}
+
+#popup-box #rewards .reward img {
+    width: 136px;
+    height: 136px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+#popup-box #rewards .reward .name {
+    font-weight: 600;
+    line-height: 130%;
+    font-size: 1em;
+}
+
+#popup-box #rewards .reward .description {
+    font-weight: 600;
+    line-height: 130%;
+    margin-top: .3em;
+    font-size: .9em;
+}
+
+.bottom {
+  margin-top: 22px;
+}
+
+.button {
+  background-color: #4b0532;
+  border: none;
+  color: white;
+  font-size: .9em;
+  padding: 11px 45px; 
+}
+
+.best-rate {
+  margin-top: 13px;
+  color: #848484;
+  font-size: 1em;
+  font-weight: 600;
+}
